@@ -1,5 +1,12 @@
 # IP2Geo
 
+```javascript 
+let ip2geo = new IP2Geo('./database-files');
+ip2geo.getLocationFromIP('234.141.66.177').then((result) => {
+    console.log(result);
+});
+
+```
 
 The MIT License (MIT)
 =====================
