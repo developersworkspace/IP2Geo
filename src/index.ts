@@ -4,7 +4,6 @@ import path = require('path');
 export class IP2Geo {
 
     constructor(private resourcePath: string) {
-        this.resourcePath = './dataFiles';
     }
 
     public getLocationFromIP(ip) {
@@ -130,11 +129,3 @@ export class IP2Geo {
     }
 
 }
-
-
-
-
-// let ip2geo = new IP2Geo('');
-// ip2geo.getLocationFromIP('41.222.48.194').then((result) => {
-//     console.log(result);
-// });
