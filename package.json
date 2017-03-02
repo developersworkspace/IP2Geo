@@ -1,7 +1,7 @@
 {
   "name": "ip2geo",
-  "version": "1.0.4",
-  "description": "A Node package to convert IP Address into location info using GeoLite Database",
+  "version": "1.0.5",
+  "description": "Convert IP Address to location info using GeoLite Database",
   "main": "./dist/index.js",
   "typings": "./dist/index",
   "scripts": {

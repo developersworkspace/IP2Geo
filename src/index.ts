@@ -3,7 +3,11 @@ import path = require('path');
 
 export class IP2Geo {
 
-    constructor(private resourcePath: string) {
+    private resourcePath: string;
+
+    constructor() {
+
+        this.resourcePath = path.join(__dirname, 'files');
     }
 
     public getLocationFromIP(ip) {
